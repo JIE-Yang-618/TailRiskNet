@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+dist/
+build/
+.DS_Store
+
+# Proprietary or locally acquired data
+data/raw/*
+!data/raw/.gitkeep
+
+# Ad-hoc outputs; the curated synthetic demo remains versioned
+results/*
+!results/demo/
+!results/demo/**
+
