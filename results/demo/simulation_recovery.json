@@ -1,0 +1,7 @@
+{
+  "average_precision": 0.8414702581369249,
+  "precision": 0.7272727272727273,
+  "recall": 0.8888888888888888,
+  "selected_edges": 11,
+  "true_edges": 9
+}

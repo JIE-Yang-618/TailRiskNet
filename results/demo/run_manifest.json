@@ -1,0 +1,19 @@
+{
+  "alpha": 0.01,
+  "bootstrap_reps": 40,
+  "factor_count": 1,
+  "input_sha256": {
+    "metadata": "e80a660b1e4f8a099e0b53527d19538d9e68610c3c56d70e0310e025399da6cd",
+    "returns": "7bf6bdaef254e7da78053da25b8bffe732e325ddc8b1a56ca7843c73751d431b",
+    "states": "0a67232b0734353c3ccfadd235c5e022cb4a2da122e4ff6db582bf139b380030",
+    "truth": "76a53b5549101b10d5ad7df95a06ce29f7e32770ec0ea751c93a561da7172df4"
+  },
+  "lag": 1,
+  "python_version": "3.12.13",
+  "quantile": 0.05,
+  "rolling_windows": 29,
+  "selection_probability": 0.65,
+  "software_version": "0.1.0",
+  "step": 13,
+  "window": 156
+}

@@ -1,0 +1,26 @@
+data:
+  returns: ../data/demo/returns.csv
+  states: ../data/demo/states.csv
+  metadata: ../data/demo/institutions.csv
+  truth: ../data/demo/true_edges.csv
+
+model:
+  quantile: 0.05
+  window: 156
+  step: 13
+  min_observations: 120
+  alpha: 0.010
+  alpha_grid: [0.0025, 0.005, 0.01, 0.015, 0.025]
+  factor_count: 1
+  lag: 1
+  edge_tolerance: 0.000001
+
+inference:
+  bootstrap_reps: 40
+  block_length: 8
+  selection_probability: 0.65
+  random_seed: 2026
+
+output:
+  directory: ../results/demo
+  top_edges: 24

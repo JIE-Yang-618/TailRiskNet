@@ -1,0 +1,7 @@
+model_a,model_b,spearman_weight_correlation,top_k,top_edge_jaccard
+penalized_quantile,contemporaneous_delta_covar,0.12598823243654755,24,0.11627906976744186
+penalized_quantile,lagged_pairwise_quantile,0.5601536814348833,24,0.4117647058823529
+penalized_quantile,lagged_tail_uplift,0.07104459490468412,24,0.17073170731707318
+contemporaneous_delta_covar,lagged_pairwise_quantile,0.292182638477994,24,0.2
+contemporaneous_delta_covar,lagged_tail_uplift,-0.2096689907350241,24,0.043478260869565216
+lagged_pairwise_quantile,lagged_tail_uplift,-0.10063547323803658,24,0.14285714285714285

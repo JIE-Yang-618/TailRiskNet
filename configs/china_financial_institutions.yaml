@@ -1,0 +1,29 @@
+# Research template corresponding to the 34-institution design in Jie Yang's
+# undergraduate thesis. Paths are intentionally local because Wind data and
+# firm fundamentals are proprietary and must not be committed to GitHub.
+data:
+  returns: ../data/raw/china_weekly_returns.csv
+  states: ../data/raw/china_state_variables.csv
+  metadata: ../data/raw/china_institutions.csv
+  truth: null
+
+model:
+  quantile: 0.05
+  window: 156
+  step: 4
+  min_observations: 120
+  alpha: null
+  alpha_grid: [0.001, 0.0025, 0.005, 0.01, 0.02, 0.04]
+  factor_count: 1
+  lag: 1
+  edge_tolerance: 0.000001
+
+inference:
+  bootstrap_reps: 200
+  block_length: 8
+  selection_probability: 0.70
+  random_seed: 2026
+
+output:
+  directory: ../results/china_application
+  top_edges: 40

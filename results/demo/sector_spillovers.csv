@@ -1,0 +1,10 @@
+source_sector,target_sector,possible_edges,active_edges,total_weight,mean_weight,active_share
+Bank,Bank,12,2,0.9645129599475091,0.08037607999562575,0.16666666666666666
+Bank,Securities,16,2,0.45340284639923445,0.028337677899952153,0.125
+Bank,Insurance,16,0,0.0,0.0,0.0
+Securities,Bank,16,0,0.0,0.0,0.0
+Securities,Securities,12,3,1.1951342499794106,0.09959452083161756,0.25
+Securities,Insurance,16,3,1.6775289474544435,0.10484555921590272,0.1875
+Insurance,Bank,16,0,0.0,0.0,0.0
+Insurance,Securities,16,1,0.3809873997024565,0.02381171248140353,0.0625
+Insurance,Insurance,12,0,0.0,0.0,0.0
